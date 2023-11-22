@@ -52,7 +52,7 @@ namespace Calculs
                     }
                     else
                     {
-                        // choix de la multiplicatio
+                        // choix de la multiplication
                         val1 = rand.Next(1, 10);
                         val2 = rand.Next(1, 10);
                         // saisie de la réponse
