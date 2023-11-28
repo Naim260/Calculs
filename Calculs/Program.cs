@@ -36,7 +36,6 @@ namespace Calculs
                     val2 = rand.Next(1, 10);
                     if (choix == 1)
                     {
-                        // choix de l'addition
                         // saisie de la réponse
                         Console.Write(val1 + " + " + val2 + " = ");
                         reponse = int.Parse(Console.ReadLine());
@@ -53,7 +52,6 @@ namespace Calculs
                     }
                     else
                     {
-                        // choix de la multiplication
                         // saisie de la réponse
                         Console.Write(val1 + " x " + val2 + " = ");
                         reponse = int.Parse(Console.ReadLine());
